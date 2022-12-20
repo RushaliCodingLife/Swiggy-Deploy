@@ -1,0 +1,43 @@
+.image {
+    width: 260px;
+    height: 280px;
+}
+    
+.cardbackgroundColor {
+    background-color: #171a29;
+    padding: 40px 10px 40px 10px;
+}
+
+
+/* Card hover effect */
+
+.card{
+    transition: transform 0.2s ease;
+    box-shadow: 0 10px 25px rgb (39,41,43,0.2) ;
+    border-radius: 0;
+    border: 0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+/* typography */
+
+.typographytxt_NavBar:hover{
+    color:#fc8019 ;
+
+}
+
+
+/* Link Navbar */
+
+.linkNavbar{
+    text-decoration: none;
+    color: black;
+}
+.linkNavbar:hover{
+    color:#fc8019 ;
+}
+
